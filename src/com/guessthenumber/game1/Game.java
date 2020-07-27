@@ -24,7 +24,7 @@ public class Game {
             case "very hard": maxNumber = 201;
                 break;
             default:
-                System.out.println("An error has occurred.");
+                System.out.println("An error has been occurred.");
                 maxNumber = level();
         }
         return maxNumber;
